@@ -1,4 +1,4 @@
-<?php namespace ArtemSchander\L5Modular\Console;
+<?php namespace RayanTools\L5Modular\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
