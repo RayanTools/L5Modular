@@ -84,6 +84,31 @@ In this case L5Modular would only load this three modules `customer` `contract` 
 L5Modular will load all modules if there is no modules.php file in the config folder.
 
 
+#### Change template
+In case you want to change template, you can edit a `view.php` into your projects `app/config` folder and add key `template` with value template name.
+
+```
+return [
+    'template' => 'default'
+];
+```
+
+default template generated would look like:
+```
+laravel-project/
+    resources/
+        themes/
+        |-- default/
+            |-- Module1/
+                |-- index.blade.php
+            |-- Module2/
+                |-- index.blade.php
+            |-- Module3/
+                |-- index.blade.php                
+```
+
+
+
 #### Update to 1.3.0
 
 Since version 1.3.0 you have to follow the `upper camel case` name convention for the module folder. If you had a `Modules/foo` folder you have to rename it to `Modules/Foo`. 
