@@ -1,4 +1,4 @@
-<?php namespace ArtemSchander\L5Modular;
+<?php namespace RayanTools\L5Modular;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
@@ -28,8 +28,8 @@ class ModuleServiceProvider extends ServiceProvider {
 				$viewsTemplate = resource_path().'/themes/'.config('view.template').'/'.$module;
 
 				if($this->files->exists($helper)) include_once $helper;
-				if($this->files->isDirectory($viewsTemplate)) $this->loadViewsFrom($viewsTemplate, $module);
-				if($this->files->isDirectory($views)) $this->loadViewsFrom($views, $module);
+                if($this->files->isDirectory($viewsTemplate)) $this->loadViewsFrom($viewsTemplate, $module);
+                if($this->files->isDirectory($views)) $this->loadViewsFrom($views, $module);
 				if($this->files->isDirectory($trans)) $this->loadTranslationsFrom($trans, $module);
 			}
 		}
@@ -55,7 +55,7 @@ class ModuleServiceProvider extends ServiceProvider {
 	protected function registerMakeCommand() {
 
 		$this->commands('modules.make');
-		
+
 		$bind_method = method_exists($this->app, 'bindShared') ? 'bindShared' : 'singleton';
 
 		$this->app->{$bind_method}('modules.make', function($app) {
