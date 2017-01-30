@@ -1,5 +1,5 @@
 {
-    "name": "RayanTools/l5-modular",
+    "name": "rayan-tools/l5-modular",
     "description": "Modular pattern generator for Laravel 5",
     "keywords": ["laravel", "modular", "modules", "module", "structure", "pattern", "RayanTools", "rayanteam", "l5modular", "artisan", "generator"],
     "homepage": "https://github.com/RayanTools/L5Modular",
