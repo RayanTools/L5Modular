@@ -25,13 +25,13 @@ The best way to install this package is through your terminal via Composer.
 Add the following line to the `composer.json` file and fire `composer update`
 
 ```
-"artem-schander/l5-modular": "dev-master"
+"RayanTools/l5-modular": "dev-master"
 ```
 Once this operation is complete, simply add the service provider to your project's `config/app.php`
 
 #### Service Provider
 ```
-ArtemSchander\L5Modular\ModuleServiceProvider::class,
+RayanTools\L5Modular\ModuleServiceProvider::class,
 ```
 
 <a name="getting-started"></a>
@@ -106,7 +106,6 @@ laravel-project/
             |-- Module3/
                 |-- index.blade.php                
 ```
-
 
 
 #### Update to 1.3.0
