@@ -1,9 +1,9 @@
 # L5Modular
 [![Laravel](https://img.shields.io/badge/laravel-5-orange.svg)](http://laravel.com)
-[![Release](https://poser.pugx.org/artem-schander/l5-modular/v/stable)](https://github.com/Artem-Schander/L5Modular/releases)
-[![Source](https://img.shields.io/badge/source-Artem_Schander-blue.svg)](https://github.com/Artem-Schander/L5Modular)
+[![Release](https://poser.pugx.org/rayan-tools/l5-modular/v/stable)](https://github.com/RayanTools/L5Modular/releases)
+[![Source](https://img.shields.io/badge/source-Artem_Schander-blue.svg)](https://github.com/RayanTools/L5Modular)
 [![Contributor](https://img.shields.io/badge/contributor-Farhan Wazir-blue.svg)](https://github.com/farhanwazir)
-[![License](https://poser.pugx.org/artem-schander/l5-modular/license)](https://packagist.org/packages/artem-schander/l5-modular)
+[![License](https://poser.pugx.org/artem-schander/l5-modular/license)](https://packagist.org/packages/rayan-tools/l5-modular)
 
 This package gives you the ability to use Laravel 5 with module system.
 You can simply drop or generate modules with their own controllers, models, views, translations and a routes file into the `app/Modules` folder and go on working with them.
