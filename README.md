@@ -1,7 +1,7 @@
 # L5Modular
 [![Laravel](https://img.shields.io/badge/laravel-5-orange.svg)](http://laravel.com)
 [![Release](https://poser.pugx.org/rayan-tools/l5-modular/v/stable)](https://github.com/RayanTools/L5Modular/releases)
-[![Source](https://img.shields.io/badge/source-Artem_Schander-blue.svg)](https://github.com/RayanTools/L5Modular)
+[![Source](https://img.shields.io/badge/source-RayanTools-orange.svg)](https://github.com/RayanTools/L5Modular)
 [![Contributor](https://img.shields.io/badge/contributor-Farhan Wazir-blue.svg)](https://github.com/farhanwazir)
 [![License](https://poser.pugx.org/artem-schander/l5-modular/license)](https://packagist.org/packages/rayan-tools/l5-modular)
 
